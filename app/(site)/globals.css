@@ -1,0 +1,33 @@
+html,
+body {
+	color: var(--black);
+	background: #F5F6F8;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+
+	color: inherit;
+}
+
+:root {
+	--black: #3B434E;
+	--gray-light: #EBEBEB;
+	--gray-dark: #787D85;
+	--white: white;
+	--primary: #7653FC;
+	--primary-hover: #6344df;
+	--red: #FC8360;
+	--green: #1DC37E;
+	--green-light: #C8F8E4;
+}
+
+.nav {
+	border: 1px solid darkcyan;
+}
